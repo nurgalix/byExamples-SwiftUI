@@ -17,4 +17,22 @@ struct byExamplesApp: App {
                 .environmentObject(order)
         }
     }
+    
+    func addition(a: Int, b: Int) -> Int {
+        return a + b
+    }
+    
+    func genericAddition<T: Numeric>(a: T, b: T) -> T {
+        return a + b
+    }
+    
+    func test() {
+        genericAddition(a: 5, b: 5)
+        genericAddition(a: 5.5, b: 5.5)
+        
+        [1, 2, 3].map { $0 * 2 } // [2, 4, 6]
+        [1, 2, 3].sorted { lhs, rhs in
+            return lhs < rhs
+        }
+    }
 }

@@ -13,6 +13,7 @@ struct MainView: View {
             ContentView()
                 .tabItem {
                     Label("Menu", systemImage: "list.dash")
+                        // .labelStyle(TitleAndIconLabelStyle())
                 }
             
             OrderView()

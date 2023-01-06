@@ -54,15 +54,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DCF7B27A29043CA100AFA600 = {
+		DC92C24D29577C1200858EF6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DC89CCED2954CBD1002A8F3F /* TempView.swift */,
 				DC1FD85F290A8F8A004C5DDE /* ItemRow.swift */,
+				DC89CCED2954CBD1002A8F3F /* TempView.swift */,
 				DC8FCF4E291CDF910034E528 /* MainView.swift */,
 				DC89CCEB2952468A002A8F3F /* FavoriteView.swift */,
 				DC8FCF50291D06020034E528 /* CheckoutView.swift */,
 				DC8FCF4C291CDA930034E528 /* OrderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DCF7B27A29043CA100AFA600 = {
+			isa = PBXGroup;
+			children = (
 				DCF7B28529043CA100AFA600 /* byExamples */,
 				DCF7B28429043CA100AFA600 /* Products */,
 			);
@@ -79,6 +86,7 @@
 		DCF7B28529043CA100AFA600 /* byExamples */ = {
 			isa = PBXGroup;
 			children = (
+				DC92C24D29577C1200858EF6 /* Views */,
 				DCF7B28629043CA100AFA600 /* byExamplesApp.swift */,
 				DCF7B28829043CA100AFA600 /* ContentView.swift */,
 				DC9A1DA42916812D005F5E99 /* ItemDetail.swift */,
